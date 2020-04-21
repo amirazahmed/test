@@ -10,7 +10,7 @@ import { StatusBar } from "@ionic-native/status-bar/ngx";
   styleUrls: ["app.component.scss"]
 })
 export class AppComponent {
-  test = [{ name: "amiarraaaa" }, { name: "sara" }];
+  test = [{ name: "amiarraaaa" }, { name: "aya" }];
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
@@ -24,7 +24,7 @@ export class AppComponent {
       header: "Sort by",
       buttons: [
         {
-          text: "delete sara",
+          text: "delete aya",
           handler: () => {
             console.log("test1");
 
@@ -50,6 +50,6 @@ export class AppComponent {
     });
   }
   sort() {
-    this.test = [{ name: "amiarraaaa", body: "aya", bodyn: "shimaaa" }];
+    this.test = [{ name: "amiarraaaa" }];
   }
 }
