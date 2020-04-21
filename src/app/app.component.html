@@ -1,0 +1,13 @@
+<ion-app>
+  <!-- <ion-router-outlet></ion-router-outlet> -->
+  <ion-content>
+    <h5 style="font-size: 14px;" (click)="presentActionSheet()">
+      Sortby <ion-icon name="swap-vertical-outline"> </ion-icon>
+
+
+    </h5>
+    <h2 *ngFor="let item of test"> {{item.name}}</h2>
+  </ion-content>
+
+
+</ion-app>
